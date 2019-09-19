@@ -11,24 +11,7 @@ import javax.persistence.EntityManager;
 import javax.transaction.Transactional;
 import java.util.List;
 
-public class CourseRepositoryImpl implements CustomerRepositoryCustom {
-
-    @Autowired
-    EntityManager entityManager;
+public class CourseRepositoryImpl {
 
 
-
-
-
-//    @Transactional
-//
-//    public List<Course> findAllCoursesWithGivenRating(int rating){
-//        List<Course> results = null;
-//
-//        try{
-//            Session session = entityManager.unwrap(Session.class);
-//            Criteria cr = session.createCriteria(Course.class);
-//            cr.createAlias()
-//        }
-//    }
 }
